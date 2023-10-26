@@ -60,7 +60,7 @@ const App = () => {
             return (
               <div key={index} className="todo-wrapper">
                 <p>{todo}</p>
-                <button className="delete-button" onClick={() => handleDelete()}>
+                <button className="delete-button" onClick={() => handleDelete(index)}>
                   Delete
                 </button>
               </div>
