@@ -1,0 +1,43 @@
+.App {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #f5f5f5;
+}
+
+.input-wrapper {
+  border-radius: 2rem;
+  background-color: #f5f5f5
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.weather-wrapper {
+  width: 400px;
+  background-color: #f5f5f5;
+  min-height: 400px;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+
+.weather-title {
+  color: #000;
+}
+
+.weather-temperature, .weather-humidity-windspeed {
+  display: flex;
+  justify-content: space-around;
+}
